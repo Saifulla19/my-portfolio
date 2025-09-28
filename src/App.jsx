@@ -10,7 +10,7 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <div>
+      <div style={{ padding: '20px', textAlign: 'center' }}>
       <Hero />
       <About />
       <Skills />
