@@ -1,11 +1,11 @@
 {
   "name": "my-portfolio",
-  "version": "0.0.0",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --force",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,5 +15,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.3",
     "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
